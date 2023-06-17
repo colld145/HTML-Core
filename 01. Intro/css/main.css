@@ -1,23 +1,21 @@
 body{
-    font-family: Arial, sans-serif;
-    background-color: rgb(245,245,245);
+    background-color: #F6F6F6;
+}
+
+section{
+    background-color: #F6F6F6;
+}
+
+p{
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .text{
     font-size: 20px;
 }
 
-.formula{
-    background-color: rgb(255,171,172);
-    font-size: 25px;
+.links{
+    font-size: 14px;
 }
 
-.high{
-    color: rgb(153, 30, 32);
-    font-style: italic;
-}
-
-.case{
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
