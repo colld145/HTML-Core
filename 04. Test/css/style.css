@@ -1,0 +1,64 @@
+.square {
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+    display: flex;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+
+.squares-box {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+
+.square:nth-child(2) {
+    background-color: yellow;
+}
+
+.square:nth-child(3) {
+    background-color: blue;
+}
+
+.one-square-box {
+    display: flex;
+    justify-content: center;
+    background-color: aquamarine;
+    align-items: center;
+    height: 500px;
+    margin-bottom: 100px;
+}
+.big-square {
+    border-style: solid;
+    border-width: 3px;
+    border-color: aqua;
+    width: 300px;
+    height: 300px;
+    background-color: purple;
+}
+
+.reverse-squares-box {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    flex-flow: row-reverse;
+}
+
+.square-2 {
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+    display: flex;
+    width: 200px;
+    height: 200px;
+    background-color: hotpink;
+    flex-flow: row-reverse;
+}
+
+.square-2:nth-child(2){
+    background-color: brown;
+}
