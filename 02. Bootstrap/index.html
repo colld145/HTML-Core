@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <style>
+      .my-custom-row {
+        background-color: bisque;
+        height: 400px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-2">Col One</div>
+        <div class="col-sm-12 col-md-6 col-lg-8">Col Two</div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-6 order-md-2">Col One</div>
+        <div class="col-sm-6 order-md-1">Col Two</div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-4 offset-2">Col One</div>
+        <div class="col-sm-4 offset-1">Col Two</div>
+      </div>
+
+      <div
+        class="row my-custom-row justify-content-center align-items-center gx-5"
+      >
+        <div class="col-sm-4">
+          <div class="p-3 border bg-light">Col One</div>
+        </div>
+        <div class="col-sm-4">
+          <div class="p-3 border bg-light">Col Two</div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <button type="button" class="btn btn-primary">Primary</button>
+        </div>
+        <div class="col">
+          <button type="button" class="btn btn-secondary">Secondary</button>
+        </div>
+        <div class="col">
+          <button type="button" class="btn btn-danger">Danger</button>
+        </div>
+      </div>
+    </div> -->
+
+    <div class="container-fluid">
+      <nav
+        class="navbar bg-primary"
+        data-bs-theme="dark"
+        style="margin-bottom: 50px"
+      >
+        <div class="row">
+          <div class="col">
+            <nav class="navbar navbar-expand-lg">
+              <div class="container-fluid">
+                <a class="navbar-brand" href="#">Website</a>
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarNavAltMarkup"
+                  aria-controls="navbarNavAltMarkup"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                  <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="#"
+                      >Home</a
+                    >
+                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="#">Features</a>
+                    <a class="nav-link disabled">Pricing</a>
+                  </div>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </nav>
+
+      <div class="row align-items-center" style="margin-bottom: 100px">
+        <div class="col-sm-12 col-md-12 col-lg-12 col-xl-6">
+          <nav id="navbar-example2" class="navbar bg-body-tertiary px-3 mb-3">
+            <a class="navbar-brand" href="#">Project</a>
+            <ul class="nav nav-pills">
+              <li class="nav-item">
+                <a class="nav-link" href="#scrollspyHeading1">First</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#scrollspyHeading2">Second</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  data-bs-toggle="dropdown"
+                  href="#"
+                  role="button"
+                  aria-expanded="false"
+                  >Dropdown</a
+                >
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="#scrollspyHeading3">Third</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#scrollspyHeading4"
+                      >Fourth</a
+                    >
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#scrollspyHeading5">Fifth</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+          <div
+            data-bs-spy="scroll"
+            data-bs-target="#navbar-example2"
+            data-bs-root-margin="0px 0px -40%"
+            data-bs-smooth-scroll="true"
+            class="scrollspy-example bg-body-tertiary p-3 rounded-2"
+            tabindex="0"
+          >
+            <h4 id="scrollspyHeading1">First heading</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
+              inventore facere officiis rem eos molestiae, illum soluta magni
+              eum consectetur repellat asperiores! Nam ad adipisci cupiditate
+              quis, sit voluptatem amet.
+            </p>
+            <h4 id="scrollspyHeading2">Second heading</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
+              inventore facere officiis rem eos molestiae, illum soluta magni
+              eum consectetur repellat asperiores! Nam ad adipisci cupiditate
+              quis, sit voluptatem amet.
+            </p>
+            <h4 id="scrollspyHeading3">Third heading</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
+              inventore facere officiis rem eos molestiae, illum soluta magni
+              eum consectetur repellat asperiores! Nam ad adipisci cupiditate
+              quis, sit voluptatem amet.
+            </p>
+            <h4 id="scrollspyHeading4">Fourth heading</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
+              inventore facere officiis rem eos molestiae, illum soluta magni
+              eum consectetur repellat asperiores! Nam ad adipisci cupiditate
+              quis, sit voluptatem amet.
+            </p>
+            <h4 id="scrollspyHeading5">Fifth heading</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
+              inventore facere officiis rem eos molestiae, illum soluta magni
+              eum consectetur repellat asperiores! Nam ad adipisci cupiditate
+              quis, sit voluptatem amet.
+            </p>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-12 col-xl-6">
+          <div
+            id="carouselExampleAutoplaying"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="pictures/57e8d0474853a814f1dc8460962e33791c3ad6e04e507440742e7dd59e48c6_640.jpg"
+                  class="d-block w-100"
+                  style="width: 1000px; height: 500px; object-fit: cover"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="pictures/gae70ff0c9be5b5f10c08736584b1dcd6308500f6dab9e94e500464a9774c8bbd0a0d6c620b806ad6f7ce814363416e3d_640.jpg"
+                  class="d-block w-100"
+                  style="width: 1000px; height: 500px; object-fit: cover"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="pictures/gec568e9b8045b9b1b816676211986b4d752805c3e4f108e112ff9c9259512f3d1da7985d03d3883d5c30e5f7478a9165_640.jpg"
+                  class="d-block w-100"
+                  style="width: 1000px; height: 500px; object-fit: cover"
+                  alt="..."
+                />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleAutoplaying"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleAutoplaying"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-3">
+          <div class="card" style="width: 18rem">
+            <img
+              src="pictures/gf4c0473ceabc555c6e63f25a850f83b9f0db287ccf5b9002822baa0ee584ddc5ff30efd5d97a02b54b73a9b5bc9884f5_640.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">John</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-3">
+          <div class="card" style="width: 18rem">
+            <img
+              src="pictures/g482351495b890bc17fd5702f0c5feddeee3cf78bdfd61305cf29a144e45a9ed5bdf3463a54deb2db58537db6889f510c_640.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Bill</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-3">
+          <div class="card" style="width: 18rem">
+            <img
+              src="pictures/g4f68831350bd317703978af352844dbd5c83efdea055fa5dfcab30ff0751ec3bd584fbf3c7c9cac25062e59523c13b1d_640.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Sarah</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-3">
+          <div class="card" style="width: 18rem">
+            <img
+              src="pictures/gdf4e02330794e6a4384592816a2cf66d92ec2adb4872c76a0532e766d9491215edb30edb111081fc9237160e8130ef96_640.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Alex</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!------------------------------------------------------------------------>
+      <footer class="bg-light text-center text-white" style="margin-top: 100px">
+        <!-- Copyright -->
+        <div
+          class="text-center p-3"
+          style="background-color: rgba(0, 0, 0, 0.2)"
+        >
+          © 2023 Copyright:
+          <a class="text-white" href="https://mdbootstrap.com/">Website.com</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+    </div>
+    <!----------------------------------------------->
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
