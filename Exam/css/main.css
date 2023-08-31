@@ -27,6 +27,11 @@ p {
 .header-link {
   color: white;
   text-decoration: underline;
+  cursor: pointer;
+}
+
+.header-link:hover {
+  opacity: 0.8;
 }
 
 .header-searchbar {
@@ -38,7 +43,7 @@ p {
 
 .search-button {
   position: relative;
-  right: 35px;
+  right: 40px;
   display: inline-block;
   background-color: transparent;
   color: white;
@@ -108,7 +113,7 @@ p {
   display: flex;
   align-items: flex-end;
   position: absolute;
-  left: 450px;
+  margin-left: 320px;
 }
 
 .middle-second-text {
@@ -132,4 +137,209 @@ p {
 
 .news-header {
   width: 1200px;
+  margin-bottom: 50px;
+}
+
+.orange-block-news {
+  width: 800px;
+  height: 50px;
+  position: absolute;
+  border-color: rgb(255, 102, 0);
+  border-style: solid;
+  border-left: 0px;
+  border-right: 0px;
+  border-top: 0px;
+  top: 1790px;
+}
+
+.news-header-text {
+  font-size: 48px;
+}
+
+.news-block {
+  height: 200px;
+  width: 500px;
+  margin-right: 70px;
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+}
+
+.news-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1250px;
+  margin-bottom: 40px;
+}
+
+.news-row:last-child {
+  margin-bottom: 300px;
+}
+
+.news-block-text {
+  width: 320px;
+  font-size: 12px;
+  height: 160px;
+  padding-top: 15px;
+  padding-left: 30px;
+  font-weight: 300;
+}
+
+
+.news-block-text-button {
+  font-size: 12px;
+  margin-left: 30px;
+  color: rgb(255, 102, 0);
+  font-weight: 500;
+  cursor: pointer;
+  width: 91px;
+}
+
+.news-block-text-button:hover {
+  opacity: 0.8;
+}
+
+.news-block-text-button-pointer {
+  font-size: 20px;
+}
+
+.get-news-bg {
+  background-color: #00445e;
+}
+
+.get-news {
+  background-color: #00445e;
+  width: 900px;
+}
+
+.get-news-header {
+  color: white;
+  font-weight: 400;
+  font-size: 30px;
+  position: absolute;
+  padding-left: 15px;
+  padding-top: 10px;
+}
+
+.get-news-row-header {
+  padding-top: 70px;
+  margin-bottom: 100px;
+}
+
+.get-news-input-name-email {
+  width: 100%;
+  height: 60px;
+  padding-left: 20px;
+}
+
+.get-news-input-who {
+  width: 100%;
+  height: 80px;
+  padding-left: 20px;
+}
+
+.get-news-inputs {
+  margin-bottom: 30px;
+}
+
+.get-news-inputs-who {
+  margin-bottom: 40px;
+}
+
+.get-news-row-sub-button {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  
+}
+
+.get-news-col-sub-button {
+  margin-bottom: 200px;
+}
+
+.get-news-sub-button {
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: rgb(255, 102, 0);
+  border: none;
+  color: white;
+  font-weight: bold;
+  font-size: 22px;
+  box-shadow: 1px 5px 4px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+.get-news-sub-button:hover {
+  opacity: 0.8;
+}
+
+.get-news-header-orange-block {
+  width: 35px;
+  height: 20px;
+  position: absolute;
+  border-color: rgb(255, 102, 0);
+  border-style: solid;
+  border-right: 0px;
+  border-bottom: 0px;
+}
+
+.footer-bg {
+  background-color: #002635;
+}
+
+.footer {
+  background-color: #002635;
+
+}
+
+.footer-col {
+  color: white;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-row {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.footer-numbers {
+  opacity: 0.7;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.footer-image {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.footer-image:hover {
+  opacity: 0.8;
+}
+
+.footer-col-images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-col-image-back {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-image-back {
+  cursor: pointer;
+}
+
+.footer-image-back:hover {
+  opacity: 0.8;
 }
