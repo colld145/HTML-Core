@@ -83,15 +83,15 @@ p {
 }
 
 .banner {
-  height: 730px;
+  height: 800px;
   width: 100%;
   background-size: cover;
 }
 
 .middle-menu-container {
   background-size: cover;
-  background-image: url(/images/DSC_78541.svg);
-  background-position: 0px -100px;
+  background-image: url(../images/main.png);
+  background-position: 0px -200px;
   margin-bottom: 200px;
 }
 
@@ -137,7 +137,7 @@ p {
 
 .news-header {
   width: 1200px;
-  margin-bottom: 50px;
+  margin-bottom: 150px;
 }
 
 .orange-block-news {
@@ -149,11 +149,12 @@ p {
   border-left: 0px;
   border-right: 0px;
   border-top: 0px;
-  top: 1790px;
+  padding-top: 80px;
 }
 
 .news-header-text {
   font-size: 48px;
+  position: absolute;
 }
 
 .news-block {
@@ -185,7 +186,6 @@ p {
   padding-left: 30px;
   font-weight: 300;
 }
-
 
 .news-block-text-button {
   font-size: 12px;
@@ -251,7 +251,6 @@ p {
   display: flex;
   justify-content: end;
   align-items: end;
-  
 }
 
 .get-news-col-sub-button {
@@ -293,7 +292,6 @@ p {
 
 .footer {
   background-color: #002635;
-
 }
 
 .footer-col {
